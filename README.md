@@ -1,14 +1,5 @@
-Yes ✅ Adding badges will make your GitHub repo look more professional and instantly give readers a snapshot of the tech stack and license.
 
-Here’s your README updated with **badges** at the top:
-
-```markdown
 # 🚀 Task A Backend  
-
-![Node.js](https://img.shields.io/badge/Node.js-18.x-green?logo=node.js)  
-![Express](https://img.shields.io/badge/Express.js-5.x-lightgrey?logo=express)  
-![MongoDB](https://img.shields.io/badge/MongoDB-8.x-green?logo=mongodb)  
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)  
 
 A **Node.js + Express + MongoDB** backend for managing developer profiles.  
 Includes CRUD operations, search, project filtering, skills tracking, and JWT-based authentication with CORS support.
@@ -18,10 +9,7 @@ Includes CRUD operations, search, project filtering, skills tracking, and JWT-ba
 ## 📂 Directory Structure  
 
 <details>
-<summary>Expand</summary>
-
-```
-
+<summary>
 sanyam2649-task-a-backend/
 ├── README.md             # Project documentation
 ├── app.js                # Main entry point
@@ -32,8 +20,7 @@ sanyam2649-task-a-backend/
 ├── schema.md         # Schema documentation
 └── user.js           # Mongoose schema & model
 
-````
-
+</summary>
 </details>
 
 ---
@@ -96,63 +83,5 @@ npm start
 * 🌍 CORS Enabled – safe cross-origin requests
 * 🕒 Timestamps – auto-generated `createdAt` & `updatedAt`
 
----
-
-## 📖 API Endpoints
-
-### Profiles
-
-| Method | Endpoint                                 | Description       |
-| ------ | ---------------------------------------- | ----------------- |
-| POST   | `/profile/create-profile`                | Create a profile  |
-| GET    | `/profile/get-profile?profileId={id}`    | Get profile by ID |
-| GET    | `/profile/get-all-profiles`              | Get all profiles  |
-| PUT    | `/profile/update-profile?profileId={id}` | Update profile    |
-
-### Projects
-
-| Method | Endpoint                                       | Description             |
-| ------ | ---------------------------------------------- | ----------------------- |
-| GET    | `/profile/projects?profileId={id}&skill=React` | Fetch projects by skill |
-
-### Skills
-
-| Method | Endpoint                                             | Description            |
-| ------ | ---------------------------------------------------- | ---------------------- |
-| GET    | `/profile/profile-top-skills?profileId={id}&limit=5` | Top skills per profile |
-| GET    | `/profile/skills/top?limit=5`                        | Top skills globally    |
-
-### Search
-
-| Method | Endpoint                  | Description            |
-| ------ | ------------------------- | ---------------------- |
-| GET    | `/profile/search?q=React` | Search across profiles |
-
----
-
-## 🛠️ Scripts
-
-```bash
-# Start (production)
-npm start
-
-# Development (with nodemon)
-npm run dev
-```
-
----
-
-## 📌 License
-
-This project is licensed under the **MIT License**.
-
-```
-
----
-
-Now when you push this to GitHub, your README will look **super polished** with badges + proper formatting.  
-
-Do you want me to also add a **“Tech Stack” section with logos** (Node.js, Express, MongoDB) so it’s even more visually appealing?
-```
 
 
